@@ -1,0 +1,97 @@
+.aside-primary {
+
+
+
+
+.btn.btn-clean:not(:disabled):not(.disabled):active:not(.btn-text),
+.btn.btn-clean:not(:disabled):not(.disabled).active,
+.show > .btn.btn-clean.dropdown-toggle,
+.show .btn.btn-clean.btn-dropdown {
+  color: #ffffff;
+  background-color: #43a4df;
+  border-color: transparent;
+
+  div {
+    span {
+      svg {
+        path {
+          fill: #ffffff;
+        }
+        g {
+          path {
+            fill: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+// .asideclient {
+//   background-color: white;
+//   > div {
+//     > span {
+//       color: gray !important;
+//     }
+//     > h6 {
+//       color: gray !important;
+//     }
+//   }
+// }
+
+// .asideclient:hover {
+//   background-color: #41a4df;
+
+//   > div {
+//     > span {
+//       color: white !important;
+//     }
+//     > h6 {
+//       color: white !important;
+//     }
+//   }
+// }
+
+.ppetabel {
+  .table th,
+  .table td {
+    padding: 0px;
+  }
+}
+
+.table th,
+.table td {
+  padding: 0.25rem;
+}
+
+ 
+.react-bootstrap-table table {
+  table-layout: auto;
+}
+
+
+ ant-switch-inner-unchecked{
+
+   background-color: #ffffff !important;
+ }
+
+ 
+.bordersubscription{
+ border-color: #43a4df !important;
+
+}
+

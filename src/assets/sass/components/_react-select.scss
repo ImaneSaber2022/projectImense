@@ -1,0 +1,57 @@
+//
+//  Select Picker
+//
+
+// form-control form-control-solid h-auto py-7 px-5 border-0 rounded-lg font-size-h6
+
+.select-picker-big {
+  .select-picker__control {
+    background-color: $input-solid-bg;
+    border-color: $input-solid-bg;
+    @include placeholder($input-solid-placeholder-color);
+    color: $input-solid-color;
+    transition: $transition-input;
+    font-size: $h6-font-size;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+
+    &:active,
+    &.active,
+    &:focus,
+    &.focus {
+      background-color: $input-solid-bg-focus;
+      border-color: $input-solid-bg-focus;
+      color: $input-solid-color;
+      transition: $transition-input;
+    }
+  }
+}
+
+.select-picker-big,
+.select-picker {
+  .select-picker__control--is-focused {
+    // box-shadow: 0 0 0 1px $primary;
+    box-shadow: none;
+    border-color: $primary;
+  }
+  .select-picker__control--is-focused:hover {
+    border-color: $primary;
+    border-radius: 0.42rem;
+  }
+  span.select-picker__indicator-separator {
+    background-color: #ffffff;
+  }
+}
+
+.select-picker__menu {
+  .select-picker__menu-list {
+    .select-picker__option--is-focused {
+      background-color: $select-hover;
+      color: $black;
+    }
+    .select-picker__option--is-selected {
+      background-color: $select-selected;
+      color: $black;
+    }
+  }
+}
